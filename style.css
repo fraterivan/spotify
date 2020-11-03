@@ -119,3 +119,34 @@
     height: 100%;
     background-color: greenyellow;
 }
+
+.my_card {
+    width: calc(100% / 3);
+    min-height: 300px;
+    float: left;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.my_card img {
+    width: 100%;
+    padding-top: 0px;
+    cursor: pointer;
+}
+
+.my_card h2 {
+    color: white;
+    font-size: 1.5em;
+    padding-top: 5px;
+}
+
+.my_card h3 {
+    color: lightgray;
+    font-size: 1em;
+    padding-top: 0px;
+}
+
+.carousel-inner {
+    width: 80%;
+    margin: auto;
+}

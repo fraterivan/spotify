@@ -43,3 +43,7 @@ function timeline(actual_sec) {
 
 audioPlayer();
 setInterval(actualTime, 1000);
+
+function changeMusic(zene){
+    audio_player.src = zene;
+}

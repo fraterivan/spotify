@@ -15,7 +15,58 @@
           <div class="menu_item">Home</div>
           <div class="menu_item">Radio</div>
         </div>
-        <div class="content"></div>
+        <div class="content">
+          <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                
+                <div class="my_card">
+                  <img src="cover.jpg" onclick='changeMusic("vossibop.mp3")' alt="">
+                  <h2>VOSSI BOP</h2>
+                  <h3>Stormzy</h3>
+                </div>
+                <div class="my_card">
+                  <img src="forest_hills.jpg" onclick='changeMusic("wetdreamz.mp3")' alt="">
+                  <h2>Wet Dreamz</h2>
+                  <h3>J. Cole</h3>
+                </div>
+                <div class="my_card">
+                  <img src="broke.jpg" onclick='changeMusic("broke.mp3")' alt="">
+                  <h2>Broke</h2>
+                  <h3>Soyb</h3>
+                </div>
+
+              </div>
+              <div class="carousel-item">
+                
+                <div class="my_card">
+                  <img src="astroworld.jpg" onclick='changeMusic("sickomode.mp3")' alt="">
+                  <h2>SICKO MODE</h2>
+                  <h3>Travis Scott</h3>
+                </div>
+                <div class="my_card">
+                  <img src="limbo.jpg" onclick='changeMusic("woodlawn.mp3")' alt="">
+                  <h2>Woodlawn</h2>
+                  <h3>Aminé</h3>
+                </div>
+                <div class="my_card">
+                  <img src="nahwc.jpg" onclick='changeMusic("spacecadet.mp3")' alt="">
+                  <h2>Space Cadet</h2>
+                  <h3>Metro Boomin ft. Gunna</h3>
+                </div>
+
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
         <div class="play">
           <div class="music_data_holder">
             <div id="music_img"></div>
@@ -30,7 +81,7 @@
             </div>
             <div class="player">
               <audio id="audioPlayer">
-                <source src="STORMZY - VOSSI BOP.mp3" type="audio/mpeg">
+                <source src="vossibop.mp3" type="audio/mpeg">
               </audio>
               <div class="time_line">
                 <div class="inner_line" id="inner_line"></div>
