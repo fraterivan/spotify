@@ -1,0 +1,121 @@
+:root {
+    --menu-color: #181818;
+    --content-color: #242424;
+    --play-color: #282828;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+.menu {
+    background-color: var(--menu-color);
+    width: 250px;
+    height: calc(100vh - 100px);
+    float: left;
+}
+
+.content {
+    background-color: var(--content-color);
+    width: calc(100% - 250px);
+    height: calc(100vh - 100px);
+    float: left;
+}
+
+.play {
+    background-color: var(--play-color);
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+.menu_item {
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.menu_item:hover {
+    cursor: pointer;
+    background-color: #15151515;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.music_data_holder {
+    width: 250px;
+    height: 100%;
+    padding: 10px;
+    float: left;
+}
+
+#music_img {
+    height: 80px;
+    width: 80px;
+    float: left;
+    background-image: url("cover.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+#actual_title {
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+
+}
+
+#actual_author {
+    color: rgb(153, 145, 145);
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.controller_holder {
+    width: calc(100% - 250px);
+    height: 50%;
+    float: left;
+}
+
+
+.controller {
+    width: 150px;
+    height: 100%;
+    margin: auto;
+}
+
+.controller img {
+    width: 30px;
+    float: left;
+    filter: invert(0.8);
+    margin: 5px
+}
+
+.controller img:hover {
+    filter: invert(1);
+    cursor: pointer;
+}
+
+#play_pause {
+    width: 50px;
+    margin: 0;
+}
+
+.time_line {
+    width: 500px;
+    height: 20px;
+    border: 1px solid white;
+}
+
+.inner_line {
+    width: 50%;
+    height: 100%;
+    background-color: greenyellow;
+}
